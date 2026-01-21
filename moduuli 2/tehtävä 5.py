@@ -8,4 +8,4 @@ lots_in_grams=13.3*lots
 total_grams=talents_in_grams+pounds_in_grams+lots_in_grams
 kilograms=int(total_grams//1000)
 remaining_grams=total_grams % 1000
-print(f"The weight in modern units:\n{kilograms} kilograms and {remaining_grams:6.2f} grams.")
+print(f"The weight in modern units:\n{kilograms} kilograms and {remaining_grams:.2f} grams.")
