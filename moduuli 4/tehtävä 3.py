@@ -4,10 +4,9 @@ while True:
     user_input = input("Enter a number (or press Enter to quit): ")
 
     if user_input == "":
-        print("Program ended.")
         if times > 0:
-            print(f"Largest number: {big}")
             print(f"Smallest number: {small}")
+            print(f"Largest number: {big}")
         break
 
     luku = float(user_input)
